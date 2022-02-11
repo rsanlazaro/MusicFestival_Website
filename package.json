@@ -1,0 +1,19 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsanlazaro/MusicFestival_Website.git"
+  },
+  "author": "Rafael Pérez-San Lázaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsanlazaro/MusicFestival_Website/issues"
+  },
+  "homepage": "https://github.com/rsanlazaro/MusicFestival_Website#readme"
+}
