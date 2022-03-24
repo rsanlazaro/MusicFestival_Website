@@ -57,8 +57,11 @@
     &-footer {
         background-color: v.$morado;
         p {
-            font-size: 2.4rem;
+            font-size: 1.8rem;
             font-weight: 400;
+            @include m.tablet {
+                font-size: 2.4rem;
+            }
         }
     }
 }

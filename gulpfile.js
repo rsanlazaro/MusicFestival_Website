@@ -87,9 +87,13 @@ function dev(done){
     done();
 }
 
+function watchArchivos(){
+    watch('src/scss/**/*.scss',css);
+}
+
 exports.css = css;
 exports.imagenes = imagenes;
 exports.versionAvif = versionAvif;
 exports.versionWebp = versionWebp;
 exports.js = javascript;
-exports.dev = parallel(imagenes, versionWebp, versionAvif, javascript, dev);
+exports.default = parallel(imagenes, versionWebp, versionAvif, javascript, dev, watchArchivos);
